@@ -1,0 +1,36 @@
+{
+  "format": 1,
+  "project": "Nitracord",
+  "plugins": [
+    {
+      "id": "discord-cleaner",
+      "name": "Discord Cleaner",
+      "version": "0.0.1",
+      "author": "Nitracord",
+      "description": "Preview and delete your messages with filters, confirmation and pause controls.",
+      "file": "src/discord-cleaner.js",
+      "minimumRuntime": "0.0.1",
+      "sha256": "feca2b641db005d4875a668b2bc67e6577541bed98cefdfebdcf6b87682fcc88"
+    },
+    {
+      "id": "invisible-typing",
+      "name": "Invisible Typing",
+      "version": "0.0.1",
+      "author": "Nitracord",
+      "description": "Hide outgoing typing indicators globally or only in selected channels.",
+      "file": "src/invisible-typing.js",
+      "minimumRuntime": "0.0.1",
+      "sha256": "63390e7de71c0cc47fb77b4b96eb629dd17658a5f4747791cbc385b2df739ac3"
+    },
+    {
+      "id": "message-logger",
+      "name": "Message Logger",
+      "version": "0.0.1",
+      "author": "Nitracord",
+      "description": "Keep deleted messages in red and earlier edits in gray, with session-only or persistent history.",
+      "file": "src/message-logger.js",
+      "minimumRuntime": "0.0.1",
+      "sha256": "62cc9dbd42df6a864cd13012a7d26decae2eb0c0dc840227d6bcd9d13e314077"
+    }
+  ]
+}

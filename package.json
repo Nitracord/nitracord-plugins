@@ -1,0 +1,16 @@
+{
+  "name": "nitracord-plugins",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "test": "node tests/run.mjs",
+    "format": "prettier --write \"**/*.{js,mjs,json}\"",
+    "format:check": "prettier --check \"**/*.{js,mjs,json}\""
+  },
+  "devDependencies": {
+    "prettier": "3.4.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
